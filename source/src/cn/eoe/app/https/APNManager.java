@@ -62,7 +62,7 @@ public class APNManager {
 			String apn = mCursor.getString(mCursor.getColumnIndex("apn"));
 			String type = mCursor.getString(mCursor.getColumnIndex("type"));
 			String proxy = mCursor.getString(mCursor.getColumnIndex("proxy"));
-			String port = mCursor.getString(mCursor.getColumnIndex("port"));
+			//String port = mCursor.getString(mCursor.getColumnIndex("port"));
 			String current = mCursor.getString(mCursor
 					.getColumnIndex("current"));
 			String mcc = mCursor.getString(mCursor.getColumnIndex("mcc"));
