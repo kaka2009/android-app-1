@@ -185,9 +185,6 @@ public class CaptureActivity extends Activity implements Callback {
 
     }
 
-    /**
-     * 扫描正确后的震动声音,如果感觉apk大了,可以删除
-     */
     private void initBeepSound() {
         if (playBeep && mediaPlayer == null) {
             // The volume on STREAM_SYSTEM is not adjustable, and users found it
